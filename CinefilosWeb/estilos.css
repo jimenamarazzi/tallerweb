@@ -324,7 +324,7 @@ opacity: 0%;
     padding-bottom: 40px;
 
 }
-.scrolling-contenedor{
+.scrollingcontenedor{
    display: flex;
    flex-wrap: nowrap;
    overflow-x: auto;
@@ -518,6 +518,10 @@ opacity: 0%;
         
     
     }
+    .carrousel-mobile{
+        display:none;
+    }
+
     .acceder{
         margin-top: 80px;
         margin-right:745px;
@@ -1382,7 +1386,7 @@ textarea::placeholder {
 
     
     }
-    .scrolling-contenedor{
+    .scrollingcontenedor{
        display: flex;
        flex-wrap: nowrap;
        overflow-x: auto;
@@ -1544,49 +1548,181 @@ textarea::placeholder {
     }
     
     .grid-container {
+        display: none;
+        
+    }
+    .carrouselmobile{
         display: flex;
-        flex-wrap: nowrap;
         overflow-x: auto;
-        margin-left: 80px;
-        margin-right: 80px;
+        white-space: nowrap;
+        gap: 12px;
+        margin-left: 36px;
+        margin-right: 36;
         height: 216;
-        width: 300px;
         overflow: hidden;
-      }
-      
-      
-      .card {
-        width: 176px;
-        background-color: #f0f0f0;
+        position: absolute;
+        top: 3460;
+        scroll-snap-type: x mandatory;
+        width: 360px; 
+        background-color: transparent;
         border-radius: 30px;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow:0  8px 8px rgba(0, 0, 0, 0.3);
+        
+    }
+    .carrousel-card1{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile1.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        
+        display: inline-block; /* Asegura que las tarjetas se comporten como bloques en línea */
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+       border-width: 4px;
+    }
+    
+    .carrousel-card2{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile2.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
         border-style: dotted;
         border-color: transparent;
         border-width: 4px;
-        
-        
-      }
-      .cardlarge{
-       width: 500px;
-       height: 216px;
-       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-       border-radius: 30px;
-       border-style: dotted;
-       border-color: transparent;
-       border-width: 4px;
-       
-      }
-     .cardmedio{
-    
-       width: 176px;
-       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-     border-radius: 30px;
-       border-style: dotted;
-       border-color: transparent;
-       border-width: 4px;
     }
-      
+    .carrousel-card3{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile3.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+    .carrousel-card4{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile4.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card5{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile5.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card6{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile6.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card7{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile7.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card8{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile8.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card9{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile9.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card10{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile10.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card11{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile11.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
+
+    .carrousel-card12{
+        flex: 0 0 auto;
+        background-image: url(./imagenes/cardmobile12.png);
+        background-size: cover;
+        width: 360px;
+        height: 216px;
+        display: inline-block;
+        scroll-snap-align: start;
+        border-style: dotted;
+        border-color: transparent;
+        border-width: 4px;
+    }
       #botonizquierda1{
         height: 50px;
         width: 32px;
@@ -1597,7 +1733,7 @@ textarea::placeholder {
         position: absolute;
         left: 170px;
         opacity: 100%;
-        margin-top: 60px;
+        margin-top: 440px;
       }
     
       #botonderecho1{
@@ -1610,7 +1746,7 @@ textarea::placeholder {
         position: absolute;
         left: 221px;
         opacity: 100%;
-        margin-top: 60px;
+        margin-top: 440px;
 
         }
 
@@ -1827,6 +1963,10 @@ textarea::placeholder {
             left: 362px;
             
         }
+        .rellenofooter{
+            display: none;
+        }
+
 
         
 }

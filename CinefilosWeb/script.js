@@ -1,12 +1,22 @@
-const ontenedor1 = document.getElementById('contenedor1');
+
+
+        function scrollIzquierda1() {
+            const scrollingcontenedor = document.getElementById('scrollingcontenedor');
+            scrollingcontenedor.scrollLeft -= 100; // Mueve el scroll hacia la izquierda
+        }
+
+        function scrollDerecha1() {
+            const scrollingcontenedor = document.getElementById('scrollingcontenedor');
+            scrollingcontenedor.scrollLeft += 100; // Mueve el scroll hacia la derecha
+        }
+
 
         function scrollIzquierda() {
-            contenedor1.scrollLeft -= 100; // Mueve el scroll hacia la izquierda
+            const carrouselmobile = document.getElementById('carrouselmobile');
+            carrouselmobile.scrollLeft -= 360; // Mueve el scroll hacia la izquierda
         }
-
-        function scrollDerecha() {
-            contenedor1.scrollLeft += 100; // Mueve el scroll hacia la derecha
-        }
-
-
         
+        function scrollDerecha() {
+            const carrouselmobile = document.getElementById('carrouselmobile');
+            carrouselmobile.scrollLeft += 360; // Mueve el scroll hacia la derecha
+        }       
